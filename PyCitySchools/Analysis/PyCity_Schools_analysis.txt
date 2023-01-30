@@ -1,13 +1,19 @@
 PyCity_Schools_analysis
 ----------------------------
 School Analysis Summary
+
+----------------------------
+
+
 District Summary
     Total Schools Total Students    Total Budget  Average Math Score  \
 0             15         39,170  $24,649,428.00           78.985371   
 
    Average Reading Score  % Passing Math  % Passing Reading  % Overall Passing  
 0               81.87784       74.980853          85.805463          65.172326  
-District Summary
+----------------------------
+
+Per School Summary
                        School Type  Total Students Total School Budget  \
 school_name                                                             
 Rodriguez High School    District            3999       $2,547,363.00   
@@ -97,3 +103,58 @@ Wilson High School      Large (2000-5000)
 Griffin High School    Medium (1000-2000)  
 Thomas High School     Medium (1000-2000)  
 Cabrera High School    Medium (1000-2000)  
+----------------------------
+
+Spending Summary
+                                Average Math Score  Average Reading Score  \
+Spending Ranges (Per Student)                                              
+<$585                                   83.455399              83.933814   
+$585-630                                81.899826              83.155286   
+$630-645                                78.518855              81.624473   
+$645-680                                76.997210              81.027843   
+
+                               % Passing Math  % Passing Reading  \
+Spending Ranges (Per Student)                                      
+<$585                               93.460096          96.610877   
+$585-630                            87.133538          92.718205   
+$630-645                            73.484209          84.391793   
+$645-680                            66.164813          81.133951   
+
+                               % Overall Passing  
+Spending Ranges (Per Student)                     
+<$585                                  90.369459  
+$585-630                               81.418596  
+$630-645                               62.857656  
+$645-680                               53.526855  
+----------------------------
+
+Size Summary
+                     Average Math Score  Average Reading Score  % Passing Math  \
+School Size                                                                     
+Small (<1000)                83.821598              83.929843       93.550225   
+Medium (1000-2000)           83.374684              83.864438       93.599695   
+Large (2000-5000)            77.746417              81.344493       69.963361   
+
+                    % Passing Reading  % Overall Passing  
+School Size                                               
+Small (<1000)               96.099437          89.883853  
+Medium (1000-2000)          96.790680          90.621535  
+Large (2000-5000)           82.766634          58.286003  
+----------------------------
+
+School Type Summary
+              Average Math Score  Average Reading Score  % Passing Math  \
+School Type                                                              
+Charter               83.473852              83.896421       93.620830   
+District              76.956733              80.966636       66.548453   
+
+             % Passing Reading  % Overall Passing  
+School Type                                        
+Charter              96.586489          90.432244  
+District             80.799062          53.672208  
+----------------------------
+----------------------------
+Conclusion 1: A higher percentage of students pass both math and reading in charter schools compared to district schools (90.3% vs 53.7%)
+Conclusion 2: Students in large schools have lowere average math (77.7%) scores compared to students in small (83.8%) and medium (83.4%).
+Comparison: Students in large schools have lower percentage of students who pass both math and reading (58.29%) compaed to students in small (89.88%) or medium (90.62%)schools.
+----------------------------
